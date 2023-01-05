@@ -1,0 +1,39 @@
+components:
+  schemas:
+    Products:
+      type: object
+      properties:
+        id:
+          type: string
+        title:
+          type: string
+        description:
+          type: string
+        price:
+          type: number
+        discountPercentage:
+          type: number
+        rating:
+          type: number
+        stock:
+          type: number
+        brand:
+          type: string
+        category:
+          type: string
+        thumbnail:
+          type: string
+        images:
+          type: array
+      example:
+        id: 42
+        title: Stiched Kurta plus trouser
+        description: FABRIC LILEIN CHEST 21 LENGHT 37 TROUSER (38) ARABIC LILEIN
+        price: 80
+        discountPercentage: 15.37
+        rating: 4.05
+        stock: 148
+        brand: Digital Printed
+        catregory: womens-dresses
+        thumbnail: https://i.dummyjson.com/data/products/42/thumbnail.jpg
+        images: ["https://i.dummyjson.com/data/products/42/1.png", "https://i.dummyjson.com/data/products/42/2.png"]
