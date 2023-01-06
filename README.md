@@ -6,6 +6,13 @@
 
 ## Comandos
 
+Por primeiro:
+
+```bash
+yarn install
+```
+
+
 Rodar localmente:
 
 ```bash
